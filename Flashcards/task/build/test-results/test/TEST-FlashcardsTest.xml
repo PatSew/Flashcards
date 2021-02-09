@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FlashcardsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-09T17:14:37" hostname="Patryks-MacBook-Pro.local" time="0.081">
+  <properties/>
+  <testcase name="start" classname="FlashcardsTest" time="0.081"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Card:
+Football
+Definition:
+Best sport in the universe!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
