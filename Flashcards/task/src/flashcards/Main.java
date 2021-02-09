@@ -1,10 +1,13 @@
 package flashcards;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Card:");
-        System.out.println("Football");
-        System.out.println("Definition:");
-        System.out.println("Best sport in the universe!");
+        Scanner scanner = new Scanner(System.in);
+        String term = scanner.nextLine();
+        String definition = scanner.nextLine();
+        String input = scanner.nextLine();
+        System.out.println(definition.equals(input) ? "Your answer is right!" : "Your answer is wrong...");
     }
 }
